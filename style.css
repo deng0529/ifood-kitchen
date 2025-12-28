@@ -154,3 +154,35 @@ h2 {
   padding: 4px 8px;
   border-radius: 6px;
 }
+
+/* ---------- Hero Section ---------- */
+
+.hero {
+  background: linear-gradient(
+      rgba(0,0,0,0.45),
+      rgba(0,0,0,0.45)
+    ),
+    linear-gradient(120deg, #8c3b1f, #c4552d);
+  border-radius: 22px;
+  padding: 70px 28px;
+  margin-bottom: 48px;
+}
+
+.hero-content {
+  max-width: 680px;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 3.1rem;
+  font-weight: 750;
+  line-height: 1.05;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.hero p {
+  color: #f2e6df;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
