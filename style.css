@@ -210,4 +210,45 @@ h2 {
   letter-spacing: 0.5px;
 }
 
+/* ========== Mobile Responsive (Phones) ========== */
+@media (max-width: 768px) {
+
+  body {
+    margin: 28px auto;
+    padding: 0 16px;
+  }
+
+  /* Hero (Home page) */
+  .hero {
+    padding: 46px 20px;
+    border-radius: 16px;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  /* Menu Hero */
+  .menu-hero h1 {
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+  }
+
+  .menu-hero p {
+    font-size: 0.9rem;
+  }
+
+  /* Navigation */
+  .nav {
+    gap: 14px;
+    font-size: 0
+
+
+
 
