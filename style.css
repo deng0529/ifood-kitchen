@@ -101,6 +101,25 @@ h2 {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
 }
 
+/* ---------- Menu Hero ---------- */
+
+.menu-hero {
+  margin-bottom: 36px;
+}
+
+.menu-hero h1 {
+  font-size: 2.6rem;
+  font-weight: 750;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+}
+
+.menu-hero p {
+  color: var(--muted);
+  letter-spacing: 0.8px;
+}
+
+
 /* ---------- Menu list ---------- */
 
 .menu-list {
@@ -110,24 +129,23 @@ h2 {
 }
 
 .menu-item {
-  padding: 14px 0;
-  border-bottom: 1px dashed var(--border);
-}
-
-.menu-item:last-child {
-  border-bottom: none;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
 }
 
 .menu-item-title {
-  font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
+  font-weight: 650;
+  letter-spacing: 0.3px;
 }
 
 .menu-item-desc {
   color: var(--muted);
   font-size: 0.95rem;
-  margin-top: 4px;
+  margin-top: 6px;
+  max-width: 620px;
 }
+
 
 /* ---------- Notes ---------- */
 
@@ -191,4 +209,5 @@ h2 {
   font-size: 1.05rem;
   letter-spacing: 0.5px;
 }
+
 
