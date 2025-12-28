@@ -243,6 +243,7 @@ h2 {
   .menu-hero p {
     font-size: 0.9rem;
   }
+}
 
 /* ---------- Mobile Navigation Fix ---------- */
 @media (max-width: 768px) {
@@ -295,6 +296,7 @@ h2 {
     font-size: 0.88rem;
   }
 }
+
 
 
 
