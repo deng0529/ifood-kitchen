@@ -345,8 +345,8 @@ h2 {
 
 .disclaimer h3 {
   font-size: 1rem;
-  font-weight: 600;
-  margin-top: 1.6em;
+  font-weight: 600; 
+  margin-top: 1.8em;
   margin-bottom: 0.4em;
   color: #2f2f2f;
 }
@@ -355,6 +355,7 @@ h2 {
   color: #555;
   line-height: 1.7;
   max-width: 68ch;
+  margin-bottom: 1em;
 }
 
 
@@ -408,6 +409,7 @@ h2 {
     letter-spacing: 0.03em;
   }
 }
+
 
 
 
