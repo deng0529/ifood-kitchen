@@ -359,6 +359,7 @@ h2 {
 .nav {
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 28px;
   padding: 18px 0 10px;
   margin-bottom: 24px;
@@ -401,6 +402,7 @@ h2 {
     letter-spacing: 0.03em;
   }
 }
+
 
 
 
