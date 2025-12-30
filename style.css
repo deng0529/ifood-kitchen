@@ -181,18 +181,6 @@ h2 {
 
 /* ---------- Hero Section ---------- */
 
-/* 主 Hero：不做卡片，全宽、轻 */
-.hero-primary {
-  text-align: center;
-  padding: 56px 20px 40px;
-}
-
-/* 次 Hero：卡片化 */
-.hero {
-  max-width: 720px;
-  margin: 0 auto 32px;
-}
-
 .hero {
   background: linear-gradient(
       rgba(0,0,0,0.45),
@@ -374,6 +362,7 @@ h2 {
   .menu-grid{ grid-template-columns: 1fr; }
   .menu-card img{ height: 200px; }
 }
+
 
 
 
