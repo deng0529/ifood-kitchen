@@ -103,11 +103,6 @@ h2 {
 
 /* ---------- Menu Hero ---------- */
 
-.hero-why p {
-  max-width: 42ch;     /* 控制每行字数 */
-  line-height: 1.7;
-  margin-bottom: 1.1em;
-}
 
 .menu-hero {
   margin-bottom: 36px;
@@ -367,6 +362,7 @@ h2 {
   .menu-grid{ grid-template-columns: 1fr; }
   .menu-card img{ height: 200px; }
 }
+
 
 
 
