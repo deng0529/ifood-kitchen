@@ -352,8 +352,14 @@ h2 {
 .disclaimer p {
   color: #555;
   line-height: 1.7;
-  max-width: 60ch;
+  max-width: 68ch;
 }
+
+.disclaimer {
+  padding: 28px 32px;
+}
+
+
 
 /* ---------- Top Navigation ---------- */
 .nav {
@@ -402,6 +408,7 @@ h2 {
     letter-spacing: 0.03em;
   }
 }
+
 
 
 
