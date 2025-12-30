@@ -363,7 +363,71 @@ h2 {
   .menu-card img{ height: 200px; }
 }
 
+.disclaimer h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2em;
+}
 
+.disclaimer h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+  color: #2f2f2f;
+}
+
+.disclaimer p {
+  color: #555;
+  line-height: 1.7;
+  max-width: 60ch;
+}
+
+/* ---------- Top Navigation ---------- */
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 18px 0 10px;
+  margin-bottom: 24px;
+}
+
+.site-nav a {
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #6b6b6b;              /* 柔和灰 */
+  text-decoration: none;
+  padding-bottom: 6px;
+
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover 状态 */
+.site-nav a:hover {
+  color: #2f2f2f;
+  border-bottom-color: #d6c2b5; /* 暖色细线 */
+}
+
+/* 当前页面高亮 */
+.site-nav a.active {
+  color: #2f2f2f;
+  border-bottom-color: #bfa38a;
+}
+
+@media (max-width: 480px) {
+  .site-nav {
+    gap: 18px;
+    padding: 14px 0;
+  }
+
+  .site-nav a {
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+  }
+}
 
 
 
