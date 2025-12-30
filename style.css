@@ -167,10 +167,6 @@ h2 {
   margin-bottom: 48px;
 }
 
-.hero-content {
-  max-width: 680px;
-}
-
 .hero h1 {
   color: #fff;
   font-size: 3.1rem;
@@ -185,6 +181,14 @@ h2 {
   font-size: 1.05rem;
   letter-spacing: 0.5px;
 }
+
+.card.hero,
+.card.disclaimer,
+.card.menu,
+.card.about {
+  max-width: var(--content-width);
+}
+
 
 /* ========== Mobile Responsive (Phones) ========== */
 @media (max-width: 768px) {
@@ -410,6 +414,7 @@ h2 {
     letter-spacing: 0.03em;
   }
 }
+
 
 
 
